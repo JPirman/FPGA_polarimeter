@@ -1,0 +1,66 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.574667",
+   "Default View_TopLeft":"-1035,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 560 -defaultsOSRD
+preplace port port-id_adc_data_ready_i -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port port-id_data_ready_o -pg 1 -lvl 4 -x 1120 -y 720 -defaultsOSRD
+preplace portBus adc_data_i -pg 1 -lvl 0 -x 0 -y 820 -defaultsOSRD
+preplace portBus encoder_cnt_i -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace portBus res_0f -pg 1 -lvl 4 -x 1120 -y 620 -defaultsOSRD
+preplace portBus res_sin1f -pg 1 -lvl 4 -x 1120 -y 640 -defaultsOSRD
+preplace portBus res_cos1f -pg 1 -lvl 4 -x 1120 -y 660 -defaultsOSRD
+preplace portBus res_sin2f -pg 1 -lvl 4 -x 1120 -y 680 -defaultsOSRD
+preplace portBus res_cos2f -pg 1 -lvl 4 -x 1120 -y 700 -defaultsOSRD
+preplace portBus madd_sin2f_b -pg 1 -lvl 4 -x 1120 -y 310 -defaultsOSRD
+preplace inst xbip_multadd_0 -pg 1 -lvl 2 -x 390 -y 390 -defaultsOSRD
+preplace inst c_addsub_0 -pg 1 -lvl 2 -x 390 -y 920 -defaultsOSRD
+preplace inst xbip_multadd_1 -pg 1 -lvl 2 -x 390 -y 1130 -defaultsOSRD
+preplace inst xbip_multadd_2 -pg 1 -lvl 2 -x 390 -y 1380 -defaultsOSRD
+preplace inst xbip_multadd_3 -pg 1 -lvl 2 -x 390 -y 700 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 100 -y 740 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 100 -y 640 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 2 -x 390 -y 80 -defaultsOSRD
+preplace inst dds_compiler_1 -pg 1 -lvl 2 -x 390 -y 220 -defaultsOSRD
+preplace inst DSP_controller_0 -pg 1 -lvl 3 -x 840 -y 550 -defaultsOSRD
+preplace netloc CLK_1 1 0 3 NJ 90 190 530 570
+preplace netloc DSP_controller_0_adc_data 1 1 3 210 830 NJ 830 1030
+preplace netloc DSP_controller_0_add_b 1 1 3 240 840 NJ 840 1040
+preplace netloc DSP_controller_0_data_ready_o 1 3 1 NJ 720
+preplace netloc DSP_controller_0_madd_cos1f_b 1 1 3 240 1250 NJ 1250 1060
+preplace netloc DSP_controller_0_madd_cos1f_c 1 1 3 230 1000 NJ 1000 1080
+preplace netloc DSP_controller_0_madd_cos2f_b 1 1 3 220 1010 NJ 1010 1050
+preplace netloc DSP_controller_0_madd_cos2f_c 1 1 3 240 1260 NJ 1260 1090
+preplace netloc DSP_controller_0_madd_sin1f_b 1 1 3 230 510 550J 300 1070
+preplace netloc DSP_controller_0_madd_sin1f_c 1 1 3 240 520 540J 290 1040
+preplace netloc DSP_controller_0_madd_sin2f_b 1 1 3 230 560 560J 310 1100
+preplace netloc DSP_controller_0_madd_sin2f_c 1 1 3 240 570 580J 320 1030
+preplace netloc DSP_controller_0_res_0f 1 3 1 NJ 620
+preplace netloc DSP_controller_0_res_cos1f 1 3 1 NJ 660
+preplace netloc DSP_controller_0_res_cos2f 1 3 1 NJ 700
+preplace netloc DSP_controller_0_res_sin1f 1 3 1 NJ 640
+preplace netloc DSP_controller_0_res_sin2f 1 3 1 NJ 680
+preplace netloc adc_data_i_1 1 0 3 NJ 820 NJ 820 610J
+preplace netloc adc_data_ready_i_1 1 0 3 NJ 580 NJ 580 550J
+preplace netloc c_addsub_0_S 1 2 1 640 660n
+preplace netloc encoder_cnt_i_1 1 0 3 NJ 540 NJ 540 NJ
+preplace netloc reset_1 1 0 3 20J 550 NJ 550 590J
+preplace netloc xbip_multadd_0_P 1 2 1 600 380n
+preplace netloc xbip_multadd_1_P 1 2 1 630 600n
+preplace netloc xlconstant_0_dout 1 1 1 200 450n
+preplace netloc xlconstant_1_dout 1 1 1 180 350n
+preplace netloc xbip_multadd_2_P 1 2 1 650 640n
+preplace netloc xbip_multadd_3_P 1 2 1 620 620n
+preplace netloc DSP_controller_0_m0_axis_phase 1 1 3 190 10 NJ 10 1060
+preplace netloc DSP_controller_0_m1_axis_phase 1 1 3 200 150 NJ 150 1050
+preplace netloc dds_compiler_0_M_AXIS_DATA 1 2 1 650 80n
+preplace netloc dds_compiler_1_M_AXIS_DATA 1 2 1 610 220n
+levelinfo -pg 1 0 100 390 840 1120
+pagesize -pg 1 -db -bbox -sgen -200 0 1320 1500
+"
+}
+0

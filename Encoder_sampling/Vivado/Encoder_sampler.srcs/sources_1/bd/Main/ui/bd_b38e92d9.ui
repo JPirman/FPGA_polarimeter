@@ -1,0 +1,164 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.641457",
+   "Default View_TopLeft":"-123,-184",
+   "ExpandedHierarchyInLayout":"",
+   "comment_0":"Enter Comments here",
+   "comment_1":"Output of the XOR gate on bot
+quadrature encoder outputs
+will change state for every encoder
+step. We'll use this to trigger the ADC",
+   "comment_2":"adc_sck_0 - JA pin 4
+adc_cnv_0 - JA pin 1
+mot_sby -  IO9",
+   "comment_3":"adc_sdo_0 - JA pin 3
+I_i_0 - JC pin 1
+A_i_0 - JC pin 2
+B_i_0 - JC pin 3",
+   "comment_4":"We can use the debouncer to
+output a pulse when a button is
+pressed/released. This is then used
+as a start signal for the sampling 
+controller. This way we can prevent 
+the core from continously
+running when the button is held",
+   "comment_5":"Encoders can produce
+noisy signals. Therefore
+a debouncer should be
+used",
+   "commentid":"comment_2|comment_3|comment_4|comment_1|comment_0|comment_5|",
+   "fillcolor_comment_1":"#ccffcc",
+   "fillcolor_comment_2":"#ffcc99",
+   "fillcolor_comment_3":"#ffcc99",
+   "fillcolor_comment_4":"#ccffcc",
+   "font_comment_0":"14",
+   "font_comment_1":"17",
+   "font_comment_2":"11",
+   "font_comment_3":"16",
+   "font_comment_4":"17",
+   "font_comment_5":"14",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 8 -x 2610 -y 880 -defaultsOSRD
+preplace port i2c -pg 1 -lvl 8 -x 2610 -y 1010 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 950 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port port-id_adc_sdo_0 -pg 1 -lvl 0 -x 0 -y 490 -defaultsOSRD
+preplace port port-id_adc_sck_0 -pg 1 -lvl 8 -x 2610 -y 400 -defaultsOSRD
+preplace port port-id_adc_cnv_0 -pg 1 -lvl 8 -x 2610 -y 420 -defaultsOSRD
+preplace port port-id_A_i_0 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_SW0 -pg 1 -lvl 0 -x 0 -y 470 -defaultsOSRD
+preplace port port-id_LD2 -pg 1 -lvl 8 -x 2610 -y 440 -defaultsOSRD
+preplace port port-id_mot_sby -pg 1 -lvl 8 -x 2610 -y 460 -defaultsOSRD
+preplace port port-id_I_i_0 -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace port port-id_LD3 -pg 1 -lvl 8 -x 2610 -y 480 -defaultsOSRD
+preplace port port-id_LD4 -pg 1 -lvl 8 -x 2610 -y 70 -defaultsOSRD
+preplace port port-id_BTN0 -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port port-id_B_i_0 -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace port port-id_LD5 -pg 1 -lvl 8 -x 2610 -y 90 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -x 1180 -y 720 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 120 -y 940 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -x 1630 -y 590 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 3 -x 770 -y 700 -defaultsOSRD
+preplace inst microblaze_0_xlconcat -pg 1 -lvl 2 -x 430 -y 730 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -x 770 -y 990 -defaultsOSRD
+preplace inst rst_clk_wiz_0_100M -pg 1 -lvl 2 -x 430 -y 920 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -x 2050 -y 890 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 6 -x 2050 -y 1030 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 5 -x 1630 -y 260 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -x 2050 -y 730 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 7 -x 2460 -y 550 -defaultsOSRD
+preplace inst Input_debouncer_0 -pg 1 -lvl 5 -x 1630 -y 390 -defaultsOSRD
+preplace inst Encoder -pg 1 -lvl 4 -x 1180 -y 240 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -x 1630 -y 130 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 6 -x 2050 -y 570 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 7 -x 2460 -y 260 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 5 -x 1630 -y 780 -defaultsOSRD
+preplace inst AD7983_driver_0 -pg 1 -lvl 6 -x 2050 -y 390 -defaultsOSRD
+preplace inst sampling_controller_0 -pg 1 -lvl 6 -x 2050 -y 130 -defaultsOSRD
+preplace netloc AD7983_driver_0_adc_cnv 1 6 2 NJ 420 NJ
+preplace netloc AD7983_driver_0_adc_sck 1 6 2 NJ 400 NJ
+preplace netloc AD7983_driver_0_data_o 1 5 2 1870 280 2230
+preplace netloc AD7983_driver_0_data_rd_ready_o 1 5 2 1860 270 2240
+preplace netloc A_i_0_1 1 0 4 NJ 240 NJ 240 NJ 240 NJ
+preplace netloc B_i_0_1 1 0 4 NJ 260 NJ 260 NJ 260 NJ
+preplace netloc DSP_data_ready_o 1 1 7 250 810 NJ 810 NJ 810 1450J 670 1870J 650 2290 70 NJ
+preplace netloc Encoder_cnt_o_0 1 4 2 1420 190 1840J
+preplace netloc Encoder_dir_o_0 1 4 4 1470 490 NJ 490 2330 480 NJ
+preplace netloc Encoder_signal_out 1 4 1 N 250
+preplace netloc Encoder_signal_out1 1 4 1 N 270
+preplace netloc I_i_0_1 1 0 4 NJ 280 NJ 280 NJ 280 NJ
+preplace netloc SW0_1 1 0 8 NJ 470 NJ 470 NJ 470 NJ 470 NJ 470 1790J 290 2250 440 2590J
+preplace netloc adc_sdo_0_1 1 0 6 NJ 490 NJ 490 NJ 490 NJ 490 1420J 480 1810J
+preplace netloc axi_uartlite_0_interrupt 1 1 6 230 820 NJ 820 NJ 820 1470J 680 1810J 810 2230
+preplace netloc clk_wiz_0_clk_out2 1 1 5 240J 1020 640J 920 NJ 920 NJ 920 1850
+preplace netloc clk_wiz_0_locked 1 1 1 N 960
+preplace netloc mdm_1_debug_sys_rst 1 1 3 250 1060 NJ 1060 920
+preplace netloc microblaze_0_Clk 1 1 5 220 800 610 790 920 830 1430 500 1820
+preplace netloc microblaze_0_intr 1 2 1 N 730
+preplace netloc reset_1 1 0 2 20 1020 230
+preplace netloc rst_clk_wiz_0_100M_bus_struct_reset 1 2 3 NJ 900 NJ 900 1460
+preplace netloc rst_clk_wiz_0_100M_mb_reset 1 2 2 630 800 930J
+preplace netloc rst_clk_wiz_0_100M_peripheral_aresetn 1 2 4 620 910 900 840 1480 880 1830
+preplace netloc sampling_controller_0_bram_addr 1 6 1 2330 110n
+preplace netloc sampling_controller_0_bram_clk 1 6 1 2320 130n
+preplace netloc sampling_controller_0_bram_en 1 6 1 2280 170n
+preplace netloc sampling_controller_0_bram_we 1 6 1 2260 190n
+preplace netloc sampling_controller_0_bram_wrdata 1 6 1 2310 150n
+preplace netloc sampling_controller_0_idle_o 1 6 2 NJ 90 NJ
+preplace netloc signal_in_0_1 1 0 5 NJ 400 NJ 400 NJ 400 NJ 400 NJ
+preplace netloc sys_clock_1 1 0 1 NJ 950
+preplace netloc util_vector_logic_0_Res 1 5 1 1840 260n
+preplace netloc xlconcat_0_dout 1 6 2 N 740 2590
+preplace netloc xlconstant_0_dout 1 5 1 1840J 130n
+preplace netloc Input_debouncer_0_trigg_falling 1 5 1 1780 100n
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 5 2 1850 260 2270
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 6 1 2300 180n
+preplace netloc axi_iic_0_IIC 1 6 2 NJ 1010 NJ
+preplace netloc axi_smc_M00_AXI 1 5 1 1860 550n
+preplace netloc axi_smc_M01_AXI 1 5 1 1870 710n
+preplace netloc axi_smc_M02_AXI 1 5 1 1800 780n
+preplace netloc axi_smc_M03_AXI 1 5 1 1790 800n
+preplace netloc axi_smc_M04_AXI 1 2 4 640 890 NJ 890 NJ 890 1780
+preplace netloc axi_uartlite_0_UART 1 6 2 NJ 880 NJ
+preplace netloc microblaze_0_M_AXI_DP 1 4 1 1420 740n
+preplace netloc microblaze_0_axi_intc_interrupt 1 3 1 910 690n
+preplace netloc microblaze_0_debug 1 3 1 940 710n
+preplace netloc microblaze_0_dlmb_1 1 4 1 1420 560n
+preplace netloc microblaze_0_ilmb_1 1 4 1 1440 580n
+preplace cgraphic comment_3 place bot -14 38 textcolor 4 linecolor 3 linewidth 2 fillcolor V,6,1
+preplace cgraphic comment_2 place bot -56 46 textcolor 4 linecolor 3 linewidth 2 fillcolor V,6,1
+preplace cgraphic comment_1 place top -683 -239 textcolor 4 linecolor 3 linewidth 2 fillcolor V,7,1
+preplace cgraphic comment_0 place left 60 86 textcolor 4 linecolor 3
+preplace cgraphic comment_4 place top -219 -448 textcolor 4 linecolor 3 linewidth 2 fillcolor V,7,1
+levelinfo -pg 1 0 120 430 770 1180 1630 2050 2460 2610
+pagesize -pg 1 -db -bbox -sgen -130 0 2740 1110
+",
+   "linktoobj_comment_0":"",
+   "linktoobj_comment_1":"/util_vector_logic_0",
+   "linktoobj_comment_2":"/mot_sby",
+   "linktoobj_comment_3":"/adc_sdo_0",
+   "linktoobj_comment_4":"/Input_debouncer_0",
+   "linktoobj_comment_5":"/Encoder/B_debouncer",
+   "linktotype_comment_0":"bd_design",
+   "linktotype_comment_1":"bd_cell",
+   "linktotype_comment_2":"bd_port",
+   "linktotype_comment_3":"bd_port",
+   "linktotype_comment_4":"bd_cell",
+   "linktotype_comment_5":"bd_cell"
+}
+{
+   ""da_axi4_cnt"":"25",
+   ""da_board_cnt"":"8",
+   ""da_bram_cntlr_cnt"":"1",
+   ""da_clkrst_cnt"":"3",
+   ""da_mb_cnt"":"7"
+}
+{
+   "/Encoder/B_debouncer/comment_8":"comment_5",
+   "/Input_debouncer_0/comment_4":"comment_4",
+   "/adc_sdo_0/comment_3":"comment_3",
+   "/comment_7":"comment_0",
+   "/mot_sby/comment_2":"comment_2",
+   "/util_vector_logic_0/comment_5":"comment_1"
+}

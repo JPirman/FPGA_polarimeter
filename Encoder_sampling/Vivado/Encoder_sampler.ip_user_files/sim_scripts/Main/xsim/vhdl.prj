@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/Main/ip/Main_microblaze_0_3/sim/Main_microblaze_0_3.vhd" \
+"../../../bd/Main/ip/Main_dlmb_v10_4/sim/Main_dlmb_v10_4.vhd" \
+"../../../bd/Main/ip/Main_ilmb_v10_4/sim/Main_ilmb_v10_4.vhd" \
+"../../../bd/Main/ip/Main_dlmb_bram_if_cntlr_4/sim/Main_dlmb_bram_if_cntlr_4.vhd" \
+"../../../bd/Main/ip/Main_ilmb_bram_if_cntlr_4/sim/Main_ilmb_bram_if_cntlr_4.vhd" \
+"../../../bd/Main/ip/Main_microblaze_0_axi_intc_3/sim/Main_microblaze_0_axi_intc_3.vhd" \
+"../../../bd/Main/ip/Main_mdm_1_4/sim/Main_mdm_1_4.vhd" \
+"../../../bd/Main/ip/Main_rst_clk_wiz_0_100M_1/sim/Main_rst_clk_wiz_0_100M_1.vhd" \
+"../../../bd/Main/ip/Main_axi_uartlite_0_2/sim/Main_axi_uartlite_0_2.vhd" \
+
+nosort

@@ -1,0 +1,48 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-511,-576",
+   "ExpandedHierarchyInLayout":"",
+   "comment_0":"Encoders can produce
+noisy signals. Therefore
+a debouncer should be
+used",
+   "commentid":"comment_0|",
+   "fillcolor_comment_0":"#ccffcc",
+   "font_comment_0":"10",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_nres -pg 1 -lvl 0 -x -50 -y 70 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -50 -y -170 -defaultsOSRD
+preplace port port-id_A_i -pg 1 -lvl 0 -x -50 -y -290 -defaultsOSRD
+preplace port port-id_B_i -pg 1 -lvl 0 -x -50 -y -150 -defaultsOSRD
+preplace port port-id_I_i -pg 1 -lvl 0 -x -50 -y -10 -defaultsOSRD
+preplace port port-id_dir_o_0 -pg 1 -lvl 3 -x 810 -y -40 -defaultsOSRD
+preplace port port-id_A_o -pg 1 -lvl 3 -x 810 -y -180 -defaultsOSRD
+preplace port port-id_B_o -pg 1 -lvl 3 -x 810 -y 50 -defaultsOSRD
+preplace portBus cnt_o -pg 1 -lvl 3 -x 810 -y -60 -defaultsOSRD
+preplace inst Encoder_decoder_0 -pg 1 -lvl 2 -x 670 -y -50 -defaultsOSRD
+preplace inst A_debouncer -pg 1 -lvl 1 -x 100 -y -300 -defaultsOSRD
+preplace inst B_debouncer -pg 1 -lvl 1 -x 100 -y -160 -defaultsOSRD
+preplace inst I_debouncer -pg 1 -lvl 1 -x 100 -y -20 -defaultsOSRD
+preplace netloc A_debouncer_signal_out 1 1 1 240 -320n
+preplace netloc B_debouncer_signal_out 1 1 2 250 -180 NJ
+preplace netloc Encoder_decoder_0_cnt_o 1 2 1 N -60
+preplace netloc Encoder_decoder_0_dir_o 1 2 1 N -40
+preplace netloc I_debouncer_signal_out 1 1 2 260 -150 790
+preplace netloc clk_0_1 1 0 2 -30 60 230
+preplace netloc nres_i_0_1 1 0 2 NJ 70 270J
+preplace netloc signal_in_0_1 1 0 1 N -290
+preplace netloc signal_in_1_1 1 0 1 N -150
+preplace netloc signal_in_2_1 1 0 1 N -10
+preplace cgraphic comment_0 place top 243 -82 textcolor 4 linecolor 3 linewidth 2 fillcolor V,6,1
+levelinfo -pg 1 -50 100 670 810
+pagesize -pg 1 -db -bbox -sgen -130 -520 950 200
+",
+   "linktoobj_comment_0":"/Encoder/B_debouncer",
+   "linktotype_comment_0":"bd_cell"
+}
+0
+{
+   "/Encoder/B_debouncer/comment_8":"comment_0"
+}

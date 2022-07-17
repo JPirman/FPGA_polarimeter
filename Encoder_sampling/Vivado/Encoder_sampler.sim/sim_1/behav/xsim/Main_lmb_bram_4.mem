@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+// Vivado v2022.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+// Created on Sunday May 22, 2022 - 12:54:01 pm, from:
+//
+//     Map file     - /home/jure/Dokumenti/Xilinx/Polarimeter/Polarimeter_Microblaze/Polarimeter_Microblaze.gen/sources_1/bd/Main/Main.bmm
+//     Data file(s) - /home/jure/Dokumenti/Xilinx/Polarimeter/Polarimeter_Microblaze/Polarimeter_Microblaze.gen/sources_1/bd/Main/ip/Main_microblaze_0_3/data/mb_bootloop_le.elf
+//
+// Address space 'Main_microblaze_0.Main_microblaze_0_local_memory_lmb_bram_32K_19_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Main" location="/home/jure/Dokumenti/Xilinx/Polarimeter/Encoder_sampler/Encoder_sampler.vitis/Main" platform="/home/jure/Namizje/Projects/Polarimeter_prototype/Encoder_sampling/Vitis/Encoder_sampler/export/Encoder_sampler/Encoder_sampler.xpfm" platformUID="xilinx:arty-s7-25::0.0(custom)" systemProject="Main_system" sysConfig="Encoder_sampler" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="d34f5950fe0a197528253c68e04d930d">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1170585588">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.2140319800" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
