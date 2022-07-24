@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Polarimeter_Microblaze.gen/sources_1/bd/Main/ipshared/4e49" --include "../../../../Polarimeter_Microblaze.gen/sources_1/bd/Main/ipshared/ec67/hdl" \
+"../../../../Polarimeter_Microblaze.srcs/sources_1/new/AD7983_driver.v" \
+"../../../../Polarimeter_Microblaze.srcs/sim_1/new/AD7983_driver_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

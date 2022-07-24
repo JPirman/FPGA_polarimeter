@@ -1,10 +1,12 @@
+#!/usr/bin/python
+
 from ast import And
 from operator import and_
 import numpy as np
 import serial
 import matplotlib.pyplot as plt
 import sys
-#!/usr/bin/python
+
 
 #Open serial communication. NOTE: Set port to the port to which the Arty S7 is connected to. Also make sure that the python script is able to access the port (for linux use: sudo chmod 666 /dev/ttyUSB1)
 ser = serial.Serial(port = "/dev/ttyUSB1", baudrate = 230400, bytesize = 8, timeout = 2, stopbits = serial.STOPBITS_ONE)

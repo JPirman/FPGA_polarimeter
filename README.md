@@ -74,4 +74,5 @@ For this project these sources were used:
 * [Verilog code for quadrature encoder](https://www.fpga4fun.com/QuadratureDecoder.html)
 * [Verilog code for debouncer](https://www.fpga4fun.com/Debouncer2.html)
 * [C code for communication with Brushless 7 click](https://github.com/MikroElektronika/Brushless_7_click)
+* [Verilog code for AXI-Lite slave](https://zipcpu.com/blog/2020/03/08/easyaxil.html)
 

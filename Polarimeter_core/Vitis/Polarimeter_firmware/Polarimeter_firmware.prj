@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Polarimeter_firmware" location="/home/jure/Dokumenti/Xilinx/Polarimeter/Polarimeter_Microblaze/Polarimeter_Microblaze.vitis/Polarimeter_firmware" platform="/home/jure/Namizje/Projects/Polarimeter_prototype/Polarimeter_core/Vitis/Polarimeter_Microblaze/export/Polarimeter_Microblaze/Polarimeter_Microblaze.xpfm" platformUID="xilinx:arty-s7-25::0.0(custom)" systemProject="Polarimeter_firmware_system" sysConfig="Polarimeter_Microblaze" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="6a5c6f5118c5ae51757ee905b737cbd3">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1566788620">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.520182653">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

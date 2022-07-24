@@ -1,0 +1,35 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-619,-194",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port port-id_I_i -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port port-id_dir_o -pg 1 -lvl 3 -x 530 -y 340 -defaultsOSRD
+preplace port port-id_nres -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port port-id_A_o -pg 1 -lvl 3 -x 530 -y 190 -defaultsOSRD
+preplace port port-id_A_i -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port port-id_B_o -pg 1 -lvl 3 -x 530 -y 50 -defaultsOSRD
+preplace port port-id_B_i -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace portBus cnt_o -pg 1 -lvl 3 -x 530 -y 320 -defaultsOSRD
+preplace inst Input_debouncer_2 -pg 1 -lvl 1 -x 140 -y 390 -defaultsOSRD
+preplace inst Encoder_decoder_0 -pg 1 -lvl 2 -x 390 -y 330 -defaultsOSRD
+preplace inst Input_debouncer_0 -pg 1 -lvl 1 -x 140 -y 210 -defaultsOSRD
+preplace inst Input_debouncer_1 -pg 1 -lvl 1 -x 140 -y 70 -defaultsOSRD
+preplace netloc A_i_0_1 1 0 1 NJ 220
+preplace netloc B_i_0_1 1 0 1 NJ 80
+preplace netloc Encoder_decoder_0_cnt_o 1 2 1 NJ 320
+preplace netloc Encoder_decoder_0_dir_o 1 2 1 NJ 340
+preplace netloc I_i_0_1 1 0 1 NJ 400
+preplace netloc Input_debouncer_0_out 1 1 2 250 190 NJ
+preplace netloc Input_debouncer_1_out 1 1 2 260 50 NJ
+preplace netloc Input_debouncer_2_out 1 1 1 N 370
+preplace netloc clk_1 1 0 2 20 290 N
+preplace netloc nres_i_1 1 0 2 NJ 310 NJ
+levelinfo -pg 1 0 140 390 530
+pagesize -pg 1 -db -bbox -sgen -80 -10 670 470
+"
+}
+

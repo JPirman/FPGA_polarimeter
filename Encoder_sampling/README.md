@@ -1,4 +1,4 @@
-#   FPGA polarimeter prototype
+#   FPGA polarimeter
 ## Encoder Sampling
 This is a simple FPGA project, that will sample data from an ADC, store it in internal memory and then print it through a Serial port. Even though it was used to test the functionality of the ADC and quadrature encoder RTL.
 <p align="middle">

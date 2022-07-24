@@ -1,0 +1,11 @@
+verilog xil_defaultlib --include "../../../../Polarimeter_Microblaze.gen/sources_1/bd/Main/ipshared/4e49" --include "../../../../Polarimeter_Microblaze.gen/sources_1/bd/Main/ipshared/ec67/hdl" \
+"../../../bd/Main/ip/Main_clk_wiz_0_2/Main_clk_wiz_0_2_clk_wiz.v" \
+"../../../bd/Main/ip/Main_clk_wiz_0_2/Main_clk_wiz_0_2.v" \
+"../../../bd/Main/ip/Main_lmb_bram_4/sim/Main_lmb_bram_4.v" \
+"../../../bd/Main/ip/Main_xbar_3/sim/Main_xbar_3.v" \
+"../../../bd/Main/ip/Main_microblaze_0_xlconcat_3/sim/Main_microblaze_0_xlconcat_3.v" \
+"../../../bd/Main/sim/Main.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
