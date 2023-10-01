@@ -3,7 +3,7 @@ A project trying to use an FPGA as the brain of a polarimeter.
 ## A few notes
 * This project was started for the purpose of [7 Ways to Leave Your Spartan-6](https://community.element14.com/technologies/fpga-group/w/documents/27537/7-ways-to-leave-your-spartan-6-fpga?ICID=fpga-feature-widget) community program run by AMD-Xilinx and element14. 
 * All of the components were provided by both STM lab and [Cold atom lab](https://ultracool.ijs.si/) of Josef Stefan Institute. 
-* Further work will be done in regards of this projects as it will be used as a core of my master's thesis. Therefore, if you wish to make your own FPGA polarimeter I would suggest waiting for a bit since many things could change.
+* An improved version based on this polarimeter was used for my master's thesis. Because the newer version uses some parts that are harder to get, I will not update this repository. In future I plan to make a third and probably the final version which will be a complete product.
 
 
 This project is split into two parts:
